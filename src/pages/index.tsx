@@ -14,7 +14,7 @@ import AboutMeDesc from "./assets/index/_about-me.md";
 const socialLinks: SocialLinkData[] = [
   {
     name: "GitHub",
-    url: "https://github.com/pkosiec",
+    url: "https://github.com/aschahal",
     svg: (
       <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <title>GitHub</title>

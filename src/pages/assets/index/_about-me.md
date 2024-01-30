@@ -1,7 +1,11 @@
-I&nbsp;write back-end applications in **Go** and modern front-ends using **TypeScript** (**React.js**). I design and implement **GraphQL**, **gRPC** and **REST** APIs.
+Hello! My name is Amandeep Singh Chahal, a senior Computer Science student at the University of Wisconsin-Madison. My academic and personal explorations in computer science have led me to develop a deep interest in several areas, notably software security/cybersecurity, user interfaces, and data structures.
 
-I&nbsp;work in a cloud-native environment in the "you build it, you run it" model. Apart from building microservices, I use and extend **Kubernetes**. I am both [Certified Kubernetes Application Developer](https://www.youracclaim.com/badges/4ef650a8-2c5d-48df-bdc7-d7bafdd9e4ec) and [Certified Kubernetes Administrator](https://www.youracclaim.com/badges/32059797-c35c-4c49-bcc3-d27268a530df).
+My journey in computer science has been one of constant discovery and learning. While I have immersed myself in various subfields, the challenge and critical nature of software security have particularly captivated me. Understanding and developing systems that can withstand evolving cyber threats is a task I find both challenging and rewarding. This interest has driven me to consider specializing in cybersecurity aspects in my coursework and future.
 
-In 2018, I&nbsp;have completed a&nbsp;master's in Computer Science at Silesian University of Technology.
+In addition to cybersecurity, I am equally fascinated by the world of user interfaces. The intersection of functionality and aesthetics in UI design intrigues me, and I am passionate about creating interfaces that are not only secure but also intuitive and user-friendly. Balancing technical robustness with user experience has been a key focus in my personal and academic projects.
 
-I'm open source and cloud-native enthusiast. That's why I'm a&nbsp;co-organizer of the&nbsp;[Gophers Silesia](https://www.meetup.com/GophersSilesia) meetup, which is a&nbsp;local community interested in Go & cloud-native topics.
+Data structures form the third pillar of my academic pursuits. I am intrigued by the way efficient data structuring can optimize performance and solve complex problems. My coursework often involves delving into various data structures, understanding their applications, and leveraging them to build efficient and effective solutions.
+
+As I prepare to graduate, I am enthusiastic about the opportunities that lie ahead in the tech industry, particularly in roles that align with my interests in cybersecurity, user interface design, and data structures. I am keen to contribute my skills and learn from real-world experiences in these dynamic fields.
+
+Thank you for visiting my profile. Feel free to connect with me on LinkedIn or reach out via email at amandeepchahal341@gmail.com.
