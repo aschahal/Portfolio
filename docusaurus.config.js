@@ -119,11 +119,11 @@ const config = {
             items: [
               {
                 label: "Email me",
-                href: "amandeepchahal341@gmail.com",
+                href: "https://amandeepchahal341@gmail.com",
               },
               {
                 label: "LinkedIn",
-                href: "www.linkedin.com/in/amandeep-chahal-",
+                href: "https://www.linkedin.com/in/amandeep-chahal-/",
               },
               {
                 label: "GitHub",
