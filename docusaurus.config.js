@@ -1,5 +1,5 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+// Note: type annotations allow type checking and IDEs autocompletion lol
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const lightCodeTheme = require("prism-react-renderer/themes/github");
