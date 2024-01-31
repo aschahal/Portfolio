@@ -16,7 +16,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/ac_logo.png",
 
   // GitHub pages deployment config
   organizationName: "pkosiec",
