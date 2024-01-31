@@ -77,7 +77,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: "C:UsersaschaDownloadsprofile_pic.jpg",
+      image: "./assets/projects/profile_pic.jpg",
       metadata: [
         {
           name: "description",
