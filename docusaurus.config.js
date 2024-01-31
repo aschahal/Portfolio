@@ -8,7 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Paweł Kosiec, Full-stack Cloud Developer",
+  title:
+    "An ambitious creator, passionate programmer, and insightful problem solver",
   tagline:
     "Software engineer interested in personal growth and tech trends. Cloud-native and open-source enthusiast.",
   url: "https://kosiec.dev",
@@ -76,7 +77,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: "img/logo-small.png",
+      image: "C:UsersaschaDownloadsprofile_pic.jpg",
       metadata: [
         {
           name: "description",
@@ -98,16 +99,16 @@ const config = {
       },
       navbar: {
         hideOnScroll: false,
-        title: "Paweł Kosiec",
+        title: "Amandeep Chahal",
         logo: {
-          alt: "Paweł Kosiec Logo",
-          src: "img/logo.svg",
-          srcDark: "img/logo-white.svg",
+          alt: "Amandeep Chahal Logo",
+          src: "img/ac_logo.png",
+          srcDark: "img/ac_black_logo.png",
         },
         items: [
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           { to: "/projects", label: "Projects", position: "left" },
-          { to: "/talks", label: "Talks", position: "left" },
+          { to: "/talks", label: "Experience", position: "left" },
         ],
       },
       footer: {
@@ -118,15 +119,15 @@ const config = {
             items: [
               {
                 label: "Email me",
-                href: "mailto:pawel@kosiec.dev",
+                href: "amandeepchahal341@gmail.com",
               },
               {
                 label: "LinkedIn",
-                href: "https://www.linkedin.com/in/pkosiec",
+                href: "www.linkedin.com/in/amandeep-chahal-",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/pkosiec",
+                label: "GitHub",
+                href: "https://github.com/aschahal",
               },
             ],
           },
@@ -142,30 +143,13 @@ const config = {
                 to: "/projects",
               },
               {
-                label: "Talks",
+                label: "Experience",
                 to: "/talks",
               },
             ],
           },
-          {
-            title: "Blog feed",
-            items: [
-              {
-                label: "RSS",
-                to: "/blog/rss.xml",
-              },
-              {
-                label: "Atom",
-                to: "/blog/atom.xml",
-              },
-              {
-                label: "JSON",
-                to: "/blog/feed.json",
-              },
-            ],
-          },
         ],
-        copyright: `Copyright © 2012-${new Date().getFullYear()} Paweł Kosiec.`,
+        copyright: `Copyright © 2023-${new Date().getFullYear()} Amandeep Chahal.`,
       },
       algolia: {
         appId: "5DLGGOZ8KA",

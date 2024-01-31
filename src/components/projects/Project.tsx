@@ -27,7 +27,7 @@ export const Project: FunctionComponent<ProjectData> = ({
           <Image img={image} alt={description} title={title} />
           {role && (
             <span className={clsx("badge badge--secondary", styles.role)}>
-              Role: {role}
+              Languages/Frameworks: {role}
             </span>
           )}
         </div>

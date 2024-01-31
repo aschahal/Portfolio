@@ -6,40 +6,42 @@ import { Project, ProjectData } from "../components/projects/Project";
 const assetsDir = "./assets/projects";
 const projects: ProjectData[] = [
   {
-    title: "Botkube",
+    title: "AI GeoGuesser",
     description:
-      "Monitor and act on your Kubernetes cluster from your favorite chat platforms.",
-    url: "https://botkube.io/",
-    image: require(`${assetsDir}/botkube.png`),
-    role: "Maintainer",
+      "Given a dataset with hundreds of images, AI predicts location of building and outputs its accuracy.",
+    url: "https://github.com/aschahal/LeNet-Neural-Architecture",
+    image: require(`${assetsDir}/newgeoguesser.jpg`),
+    role: "Python, PyTorch",
   },
   {
-    title: "Capact",
-    description: "A unified way to manage applications and infrastructure.",
-    url: "https://capact.io",
-    image: require(`${assetsDir}/capact.png`),
-    role: "Maintainer",
+    title: "Teeko AI Game",
+    description: "A fun, competitive game of Teeko between human and AI.",
+    url: "https://github.com/aschahal/Taeko-AI",
+    image: require(`${assetsDir}/teeko.png`),
+    role: "Django, Python",
   },
   {
-    title: "Mongo Seeding",
-    description: "Ultimate solution for populating MongoDB database.",
-    url: "https://github.com/pkosiec/mongo-seeding",
-    image: require(`${assetsDir}/mongo-seeding.png`),
-    role: "Author",
+    title: "Reinforcement AI Learning",
+    description:
+      "An AI model that continues to learn new things using Q Learning Algorithm.",
+    url: "https://github.com/aschahal/Reinforcement-Learning-AI",
+    image: require(`${assetsDir}/learning.jpg`),
+    role: "Python, PyTorch",
   },
   {
-    title: "Terminer",
-    description: "Upgrade your terminal experience with a single command.",
-    url: "https://github.com/pkosiec/terminer",
-    image: require(`${assetsDir}/terminer.png`),
-    role: "Author",
+    title: "Monster Face Filter",
+    description:
+      "An immersive augmented reality experience, creating a dynamic monster face filter.",
+    url: "https://github.com/aschahal/Demon-Face-Filter",
+    image: require(`${assetsDir}/demonface.png`),
+    role: "JavaScript, JSON, OpenGL, Lens Studio",
   },
   {
-    title: "Gophers Silesia",
-    description: "Go & Cloud Native Meetup organized in Katowice, Poland",
-    url: "https://www.meetup.com/GophersSilesia",
-    image: require(`${assetsDir}/gophers-silesia.png`),
-    role: "Organizer",
+    title: "AI Data Loader",
+    description: "Haveing given dataset analyzed by AI model.",
+    url: "https://github.com/aschahal/PyTorch-Data-Loader",
+    image: require(`${assetsDir}/loaddata.png`),
+    role: "Python, PyTorch",
   },
 ];
 

@@ -8,4 +8,4 @@ Data structures form the third pillar of my academic pursuits. I am intrigued by
 
 As I prepare to graduate, I am enthusiastic about the opportunities that lie ahead in the tech industry, particularly in roles that align with my interests in cybersecurity, user interface design, and data structures. I am keen to contribute my skills and learn from real-world experiences in these dynamic fields.
 
-Thank you for visiting my profile. Feel free to connect with me on LinkedIn or reach out via email at amandeepchahal341@gmail.com.
+Thank you for visiting my portfolio. Feel free to connect with me on LinkedIn or reach out via email at amandeepchahal341@gmail.com.
