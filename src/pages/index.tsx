@@ -8,7 +8,7 @@ import {
 } from "../components/homepage/SocialLinks";
 import { Hero } from "../components/homepage/Hero";
 
-import avatar from "C:/Users/ascha/Downloads/profile_pic.jpg";
+import avatar from "./assets/projects/profile_pic.jpg";
 import AboutMeDesc from "./assets/index/_about-me.md";
 
 const socialLinks: SocialLinkData[] = [
