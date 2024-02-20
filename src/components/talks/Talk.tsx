@@ -54,10 +54,10 @@ const Talk: FunctionComponent<TalkMetadata> = ({
                 target="_blank"
                 className="button button--primary button--outline"
               >
-                <span className="button__icon">
+                {/* <span className="button__icon">
                   <RecordingIcon />
-                </span>
-                Watch recording
+                </span> */}
+                See Source Code
               </a>
             )}
             {slidesURL && (

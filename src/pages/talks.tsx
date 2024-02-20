@@ -29,6 +29,7 @@ const talks: TalkMetadata[] = [
         date: new Date(2024, 0, 1),
       },
     ],
+    recordingURL: "https://github.com/Myzmi/CurrencyGuessr",
   },
   {
     title: "Global Engagement Team Intern",
