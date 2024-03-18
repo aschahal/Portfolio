@@ -1,7 +1,9 @@
-Lead promotional campaigns for team events and training sessions for college educational programs,
-facilitating over 300+ international students.
+- Performed data collection campaigns via Qualtrics XM Surveys. Further analysis via Tableau, and Excel were used to justify the creation of new UW Peer Mentoring (IPM) Programs, requiring ~$200k in funding.
 
-Spoke to over 200 international students in multiple 100+ cross-cultural student meetings to promote intercultural learnings.
+- Designed, developed, managed documentation, and partially deployed UW Madison’s IPM Program Website, which is used by 20+ ISS teams, and visited by 100+ of UW International Students daily.
 
-Developed and managed cloud hosted documentation to ensure accurate information for 20+ organizations, while
-in collaboration with 20+ UW-Madison affiliate organizations to educate international students.
+- Interviewed, and onboarded over a dozen peer mentors into the UW ISS system.
+
+- Served as technical lead for campaign events and intercultural training sessions for ISS programs, facilitating over 300+ international students at a time.
+
+- Tools – Qualtrics, Asana, Microsoft Teams, Tableau, Excel, Alteryx, Wordpress, Canva, Figma.

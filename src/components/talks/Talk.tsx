@@ -50,14 +50,14 @@ const Talk: FunctionComponent<TalkMetadata> = ({
           <div className={styles.buttons}>
             {recordingURL && (
               <a
-                href={recordingURL}
+                href={"https://3mirhan.pythonanywhere.com/"}
                 target="_blank"
                 className="button button--primary button--outline"
               >
                 {/* <span className="button__icon">
                   <RecordingIcon />
                 </span> */}
-                See Source Code
+                See CurrencyGussr
               </a>
             )}
             {slidesURL && (

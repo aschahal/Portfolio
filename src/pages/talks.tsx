@@ -9,13 +9,13 @@ import GraphQLInGoDescription from "./assets/talks/_graphql-in-go.md";
 
 const talks: TalkMetadata[] = [
   {
-    title: "Frontend Developer/UX Designer",
+    title: "Frontend Developer Intern",
     description: <BuildingGQLAPIForK8sResDescription />,
     events: [
       {
-        name: "Global Gamers Hackathon",
+        name: "Global Citizens",
         location: "Remote",
-        date: new Date(2024, 0, 1),
+        date: new Date(2023, 10, 11),
       },
     ],
   },
@@ -32,13 +32,13 @@ const talks: TalkMetadata[] = [
     recordingURL: "https://github.com/Myzmi/CurrencyGuessr",
   },
   {
-    title: "Global Engagement Team Intern",
+    title: "Global Engagement Team IT Intern",
     description: <GraphQLInGoDescription />,
     events: [
       {
         name: "UW-Madison International Student Services",
         location: "Madison, Wisconsin",
-        date: new Date(2024, 0, 10),
+        date: new Date(2022, 8, 9),
       },
     ],
   },
