@@ -45,7 +45,7 @@ const projects: ProjectData[] = [
     title: "Badger News",
     description:
       "Badger News, developed with HTML, CSS, JavaScript, React Native, Node.js, Expo, and Figma, optimizes content delivery by dynamically updating articles and user preferences based on interaction data. The application incorporates the Animated API to ensure smooth transitions and visual enhancements, improving the overall readability and user experience. Designed for versatility, it adapts flawlessly to various devices and screen orientations, leveraging React Native's robust styling features to maintain a consistent and engaging user interface across platforms.",
-    url: "https://3mirhan.pythonanywhere.com/",
+    url: "https://github.com/aschahal/Badger-News",
     image: require(`${assetsDir}/badger.jpg`),
     role: "HTML, CSS, JavaScript, React Native, Node.js, Expo, Figma",
   },
@@ -54,7 +54,7 @@ const projects: ProjectData[] = [
     title: "Project Sparrow",
     description:
       "Arrow is a protocol and library specifically designed for the efficient analysis of tabular data. It enables optimized data processing by standardizing how data is represented in memory, which facilitates rapid access and manipulation of data structures. Arrow is particularly useful in scenarios where performance and data interoperability are critical, as it allows for seamless data exchange among disparate systems and languages without the need for serialization or copying of data. This makes it an invaluable tool for developers working with large datasets and complex data operations.",
-    url: "https://github.com/cs368-wisc/sparrow-project-aschahal",
+    url: "https://github.com/aschahal/Arrow",
     image: require(`${assetsDir}/better_table.jpeg`),
     role: "C/C++, Python, Makefile, Linux",
   },
