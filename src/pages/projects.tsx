@@ -9,7 +9,7 @@ const projects: ProjectData[] = [
     title: "MathDB",
     description:
       "MathDB was developed using gRPC, HDFS, Python, and Docker. It is designed as a database system that manages basic mathematical operations, capable of utilizing multiple threads and caching results to improve efficiency. It features an LRU cache mechanism equipped with locks to maintain data consistency. The MathDB system is operated through gRPC calls to facilitate network communications, and it incorporates a multithreaded client that calculates the hit rate of the operations performed.",
-    url: "https://3mirhan.pythonanywhere.com/",
+    url: "https://github.com/aschahal/MathDB",
     image: require(`${assetsDir}/database.jpg`),
     role: "Python, HDFS, gRPC, Google Cloud Platform, Docker",
   },
@@ -18,7 +18,7 @@ const projects: ProjectData[] = [
     title: "Spark Loan Applications",
     description:
       "Spark Loan Applications was developed  using Spark SQL, HDFS, Python, and Docker. It utilizes Apache Spark to process and analyze loan application data specifically from Wisconsin. By creating RDDs and DataFrames, and integrating Hive, it enables sophisticated data querying and manipulation. The system enhances query performance through data bucketing, optimizing complex data analysis and operations. Additionally, it employs machine learning models to predict loan approval probabilities, evaluating model effectiveness by splitting data into training and testing sets.",
-    url: "https://3mirhan.pythonanywhere.com/",
+    url: "https://github.com/aschahal/Spark-Mortgage-Applications",
     image: require(`${assetsDir}/home.jpg`),
     role: "Spark SQL, MySQL, HDFS, Python, Google Cloud Platform, Docker",
   },
@@ -27,7 +27,7 @@ const projects: ProjectData[] = [
     title: "AI SuperMarket",
     description:
       "AI SuperMarket uses technologies such as Wit.AI, Node.js, HTML, CSS, JavaScript, React, and Sketch. It features a chat agent tailored for an online shopping platform that retrieves item listings through an API from the server. User interactions are captured and analyzed by the Wit.AI API to discern the user's intentions. The AI-driven agent then assists users by guiding them on how to effectively utilize the chat services, enhancing user engagement through interactive dialogues.",
-    url: "https://3mirhan.pythonanywhere.com/",
+    url: "https://github.com/aschahal/AI-SuperMarket",
     image: require(`${assetsDir}/better_supermarket.jpg`),
     role: "HTML, CSS, JavaScript, React, Wit.AI, Sketch",
   },
@@ -36,7 +36,7 @@ const projects: ProjectData[] = [
     title: "BadgerChat",
     description:
       "BadgerChat was developed using HTML, CSS, JavaScript, React Native, Node.js, Wit.AI, and Sketch. It features a versatile chat agent built on React that manages both text and voice inputs, capable of executing various commands like user authentication and message posting. The integration of Wit.AI enhances the system's ability to understand and interpret user intentions from both text and voice inputs. Furthermore, BadgerChat supports real-time interactions by fetching and posting chat messages efficiently, while a custom-built delegation system maintains meticulous control over user sessions and preferences.",
-    url: "https://3mirhan.pythonanywhere.com/",
+    url: "https://github.com/aschahal/BadgerChat",
     image: require(`${assetsDir}/bucky.png`),
     role: "HTML, CSS, JavaScript, React (Native), Node.js, Wit.AI, Sketch",
   },
@@ -54,7 +54,7 @@ const projects: ProjectData[] = [
     title: "Project Sparrow",
     description:
       "Arrow is a protocol and library specifically designed for the efficient analysis of tabular data. It enables optimized data processing by standardizing how data is represented in memory, which facilitates rapid access and manipulation of data structures. Arrow is particularly useful in scenarios where performance and data interoperability are critical, as it allows for seamless data exchange among disparate systems and languages without the need for serialization or copying of data. This makes it an invaluable tool for developers working with large datasets and complex data operations.",
-    url: "https://3mirhan.pythonanywhere.com/",
+    url: "https://github.com/cs368-wisc/sparrow-project-aschahal",
     image: require(`${assetsDir}/better_table.jpeg`),
     role: "C/C++, Python, Makefile, Linux",
   },
