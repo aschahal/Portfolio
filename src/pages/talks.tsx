@@ -32,7 +32,7 @@ const talks: TalkMetadata[] = [
     recordingURL: "https://github.com/Myzmi/CurrencyGuessr",
   },
   {
-    title: "Global Engagement Team IT Intern",
+    title: "Global Engagement IT Team Intern",
     description: <GraphQLInGoDescription />,
     events: [
       {
