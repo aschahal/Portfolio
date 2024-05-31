@@ -9,7 +9,7 @@ import GraphQLInGoDescription from "./assets/talks/_graphql-in-go.md";
 
 const talks: TalkMetadata[] = [
   {
-    title: "Frontend Developer Intern",
+    title: "Frontend Software Engineer Intern",
     description: <BuildingGQLAPIForK8sResDescription />,
     events: [
       {
