@@ -6,4 +6,12 @@
 
 - Served as technical lead for campaign events and intercultural training sessions for ISS programs, facilitating over 300+ international students at a time.
 
+- Assisted with communicating with students, organizations, and faculty vias email, phone, and in-person.
+
+- Assisted with event set-up and planning, represent ISS at campus partner sponsored events/activities.
+
+- Served as physical point of contact in instances where supervisor, Engagement Coordinator, or Program Manager are unavailable.
+
+- Performed duties in support of the organizational mission and university advancement.
+
 - Tools – Qualtrics, Asana, Microsoft Teams, Tableau, Excel, Alteryx, Wordpress, Canva, Figma.
