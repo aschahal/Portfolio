@@ -11,7 +11,7 @@ export const Hero: FunctionComponent = () => {
           Hi. I'm{" "}
           <span className={styles.highlighted}>Amandeep Singh Chahal</span>,
           <br />
-          CS student at UW-Madison.
+          CS graduate from UW-Madison.
         </h1>
         <p className={clsx("hero__subtitle", styles.subtitle)}>
           An ambitious creator, passionate programmer, and insightful problem
