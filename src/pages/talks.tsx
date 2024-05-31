@@ -20,7 +20,7 @@ const talks: TalkMetadata[] = [
     ],
   },
   {
-    title: "Frontend Developer/Web Developer",
+    title: "Web Developer",
     description: <DevTeamCollaborationGitBestPracticesDescription />,
     events: [
       {
