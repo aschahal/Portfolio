@@ -28,7 +28,7 @@ const projects: ProjectData[] = [
     description:
       "AI SuperMarket uses technologies such as Wit.AI, Node.js, HTML, CSS, JavaScript, React, and Sketch. It features a chat agent tailored for an online shopping platform that retrieves item listings through an API from the server. User interactions are captured and analyzed by the Wit.AI API to discern the user's intentions. The AI-driven agent then assists users by guiding them on how to effectively utilize the chat services, enhancing user engagement through interactive dialogues.",
     url: "https://github.com/aschahal/AI-SuperMarket",
-    image: require(`${assetsDir}/ai_supermarket.webp`),
+    image: require(`${assetsDir}/better_supermarket.jpg`),
     role: "HTML, CSS, JavaScript, React, Wit.AI, Sketch",
   },
 
