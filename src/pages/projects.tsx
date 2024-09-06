@@ -10,7 +10,7 @@ const projects: ProjectData[] = [
     description:
       "MathDB was developed using gRPC, HDFS, Python, and Docker. It is designed as a database system that manages basic mathematical operations, capable of utilizing multiple threads and caching results to improve efficiency. It features an LRU cache mechanism equipped with locks to maintain data consistency. The MathDB system is operated through gRPC calls to facilitate network communications, and it incorporates a multithreaded client that calculates the hit rate of the operations performed.",
     url: "https://github.com/aschahal/MathDB",
-    image: require(`${assetsDir}/database.jpg`),
+    image: require(`${assetsDir}/MathDB.webp`),
     role: "Python, HDFS, gRPC, Google Cloud Platform, Docker",
   },
 
@@ -28,7 +28,7 @@ const projects: ProjectData[] = [
     description:
       "AI SuperMarket uses technologies such as Wit.AI, Node.js, HTML, CSS, JavaScript, React, and Sketch. It features a chat agent tailored for an online shopping platform that retrieves item listings through an API from the server. User interactions are captured and analyzed by the Wit.AI API to discern the user's intentions. The AI-driven agent then assists users by guiding them on how to effectively utilize the chat services, enhancing user engagement through interactive dialogues.",
     url: "https://github.com/aschahal/AI-SuperMarket",
-    image: require(`${assetsDir}/better_supermarket.jpg`),
+    image: require(`${assetsDir}/ai_supermarket.webp`),
     role: "HTML, CSS, JavaScript, React, Wit.AI, Sketch",
   },
 
@@ -37,7 +37,7 @@ const projects: ProjectData[] = [
     description:
       "BadgerChat was developed using HTML, CSS, JavaScript, React Native, Node.js, Wit.AI, and Sketch. It features a versatile chat agent built on React that manages both text and voice inputs, capable of executing various commands like user authentication and message posting. The integration of Wit.AI enhances the system's ability to understand and interpret user intentions from both text and voice inputs. Furthermore, BadgerChat supports real-time interactions by fetching and posting chat messages efficiently, while a custom-built delegation system maintains meticulous control over user sessions and preferences.",
     url: "https://github.com/aschahal/BadgerChat",
-    image: require(`${assetsDir}/bucky.png`),
+    image: require(`${assetsDir}/badger_chat.webp`),
     role: "HTML, CSS, JavaScript, React (Native), Node.js, Wit.AI, Sketch",
   },
 
@@ -46,16 +46,16 @@ const projects: ProjectData[] = [
     description:
       "Badger News, developed with HTML, CSS, JavaScript, React Native, Node.js, Expo, and Figma, optimizes content delivery by dynamically updating articles and user preferences based on interaction data. The application incorporates the Animated API to ensure smooth transitions and visual enhancements, improving the overall readability and user experience. Designed for versatility, it adapts flawlessly to various devices and screen orientations, leveraging React Native's robust styling features to maintain a consistent and engaging user interface across platforms.",
     url: "https://github.com/aschahal/Badger-News",
-    image: require(`${assetsDir}/badger.jpg`),
+    image: require(`${assetsDir}/badger_news.webp`),
     role: "HTML, CSS, JavaScript, React Native, Node.js, Expo, Figma",
   },
 
   {
-    title: "Project Sparrow",
+    title: "Project Arrow",
     description:
       "Arrow is a protocol and library specifically designed for the efficient analysis of tabular data. It enables optimized data processing by standardizing how data is represented in memory, which facilitates rapid access and manipulation of data structures. Arrow is particularly useful in scenarios where performance and data interoperability are critical, as it allows for seamless data exchange among disparate systems and languages without the need for serialization or copying of data. This makes it an invaluable tool for developers working with large datasets and complex data operations.",
     url: "https://github.com/aschahal/Arrow",
-    image: require(`${assetsDir}/better_table.jpeg`),
+    image: require(`${assetsDir}/arrow.webp`),
     role: "C/C++, Python, Makefile, Linux",
   },
 
@@ -64,7 +64,7 @@ const projects: ProjectData[] = [
     description:
       "This program is a web-based application titled CurrencyGuessr, developed using the Django framework, a high-level Python web framework that encourages rapid development and clean, pragmatic design. The application is designed as a game where players guess currency conversion rates, specifically focusing on the conversion rate from USD to TRY (Turkish Lira). The game aims to draw attention to the challenges of predicting currency rates in the context of Turkey's economy, which has been experiencing significant inflation and currency devaluation.",
     url: "https://3mirhan.pythonanywhere.com/",
-    image: require(`${assetsDir}/better_money.avif`),
+    image: require(`${assetsDir}/currency.webp`),
     role: "Django, Python, JavaScript, HTML, CSS",
   },
 
