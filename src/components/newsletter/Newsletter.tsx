@@ -33,12 +33,12 @@ export const Newsletter: FunctionComponent<NewsletterProps> = ({ data }) => {
 
   return (
     <div className={styles.newsWrapper}>
-      <div className="container padding-vert--lg">
-        <NewsIcon className={styles.newsIcon} />
-        <h2>Subscribe to the Newsletter</h2>
-        <p>Get my latest content by email. Unsubscribe at any time.</p>
+      {/* <div className="container padding-vert--lg"> */}
+      {/* <NewsIcon className={styles.newsIcon} /> */}
+      {/* <h2>Subscribe to the Newsletter</h2>
+        <p>Get my latest content by email. Unsubscribe at any time.</p> */}
 
-        <form
+      {/* <form
           action={action}
           className={styles.form}
           method={method}
@@ -69,8 +69,8 @@ export const Newsletter: FunctionComponent<NewsletterProps> = ({ data }) => {
           >
             Subscribe
           </button>
-        </form>
-        <div className={styles.formFooter}>
+        </form> */}
+      {/* <div className={styles.formFooter}>
           By subscribing, you agree with {serviceName}’s{" "}
           <a target="_blank" href={tosURL}>
             Terms of Service
@@ -80,8 +80,8 @@ export const Newsletter: FunctionComponent<NewsletterProps> = ({ data }) => {
             Privacy Policy
           </a>
           .
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   );
 };

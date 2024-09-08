@@ -118,10 +118,6 @@ const config = {
             title: "Connect",
             items: [
               {
-                label: "Email me",
-                href: "https://amandeepchahal341@gmail.com",
-              },
-              {
                 label: "LinkedIn",
                 href: "https://www.linkedin.com/in/amandeep-chahal-/",
               },
