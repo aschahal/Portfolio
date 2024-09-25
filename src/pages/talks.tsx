@@ -16,7 +16,7 @@ const talks: TalkMetadata[] = [
       {
         name: "[P1] Games",
         location: "Remote",
-        date: new Date(2024, 8, 8),
+        date: new Date(2024, 7, 8),
       },
     ],
     slidesURL: "https://tomboi23.itch.io/rockin-progress",
