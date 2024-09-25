@@ -19,6 +19,7 @@ const talks: TalkMetadata[] = [
         date: new Date(2024, 10, 8),
       },
     ],
+    slidesURL: "https://tomboi23.itch.io/rockin-progress",
   },
   {
     title: "Contract Software Developer",

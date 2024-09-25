@@ -69,7 +69,7 @@ const Talk: FunctionComponent<TalkMetadata> = ({
                 <span className="button__icon">
                   <SlidesIcon />
                 </span>
-                See slides
+                See Jam Session
               </a>
             )}
             {repoURL && (
