@@ -6,11 +6,12 @@ import Talk, { TalkMetadata } from "../components/talks/Talk";
 import BuildingGQLAPIForK8sResDescription from "./assets/talks/_building-gql-api-for-k8s-res.md";
 import DevTeamCollaborationGitBestPracticesDescription from "./assets/talks/_dev-team-collaboration-git-best-practices.md";
 import GraphQLInGoDescription from "./assets/talks/_graphql-in-go.md";
+import UnityEngineDeveloper from "./assets/talks/unity_engine_dev.md";
 
 const talks: TalkMetadata[] = [
   {
     title: "Unity Engine Developer",
-    description: <BuildingGQLAPIForK8sResDescription />,
+    description: <UnityEngineDeveloper />,
     events: [
       {
         name: "[P1] Games",
