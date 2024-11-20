@@ -37,10 +37,17 @@ export const Newsletter: FunctionComponent<NewsletterProps> = ({ data }) => {
         <NewsIcon className={styles.newsIcon} />
         <h2>CS Research Papers Blog</h2>
         <p>
-          These are my thoughts and opinions on research publications in
-          computer science from across the globe.
+          These are my thoughts and opinions on research articles & publications
+          in computer science from across the globe.
         </p>
-
+        <p></p>
+        <p>
+          Navigate to the <b>Blog</b> tab to see what research articles &
+          publications I have thoughts on. Email me with any insights you have
+          about my thoughts and opinions.
+        </p>
+        <p></p>
+        <p>Lets start a conversation!</p>
         <form
           action={action}
           className={styles.form}
@@ -65,14 +72,13 @@ export const Newsletter: FunctionComponent<NewsletterProps> = ({ data }) => {
               value=""
             />
           </div>
-          <button
+          {/* <button
             type="submit"
             name={submitButtonName}
             className="button button--primary"
-            onClick={"https://www.amandeepchahal.com/blogs"}
           >
             Check it out!
-          </button>
+          </button> */}
         </form>
         {/* <div className={styles.formFooter}>
           By subscribing, you agree with {serviceName}’s{" "}
