@@ -24,8 +24,7 @@ const config = {
 
   customFields: {
     newsletter: {
-      action:
-        "https://dev.us14.list-manage.com/subscribe/post?u=4ed0fd1909674fddee53ac3e7&amp;id=dfdcae99f5&amp;f_id=004887e0f0",
+      action: "https://www.amandeepchahal.com/blogs",
       method: "post",
       emailFieldName: "EMAIL",
       firstNameFieldName: "FNAME",
@@ -109,6 +108,7 @@ const config = {
           // { to: "/blog", label: "Blog", position: "left" },
           { to: "/projects", label: "Projects", position: "left" },
           { to: "/talks", label: "Experience", position: "left" },
+          { to: "/blogs", label: "Blog", position: "left" },
         ],
       },
       footer: {
@@ -141,6 +141,10 @@ const config = {
               {
                 label: "Experience",
                 to: "/talks",
+              },
+              {
+                label: "Blog",
+                to: "/blogs",
               },
             ],
           },

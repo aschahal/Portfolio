@@ -33,24 +33,27 @@ export const Newsletter: FunctionComponent<NewsletterProps> = ({ data }) => {
 
   return (
     <div className={styles.newsWrapper}>
-      {/* <div className="container padding-vert--lg"> */}
-      {/* <NewsIcon className={styles.newsIcon} /> */}
-      {/* <h2>Subscribe to the Newsletter</h2>
-        <p>Get my latest content by email. Unsubscribe at any time.</p> */}
+      <div className="container padding-vert--lg">
+        <NewsIcon className={styles.newsIcon} />
+        <h2>CS Research Papers Blog</h2>
+        <p>
+          These are my thoughts and opinions on research publications in
+          computer science from across the globe.
+        </p>
 
-      {/* <form
+        <form
           action={action}
           className={styles.form}
           method={method}
           target="_blank"
         >
-          <input
+          {/* <input
             name={emailFieldName}
             placeholder="Your email"
             type="email"
             required
-          />
-          <input name={firstNameFieldName} placeholder="Your first name" />
+          /> */}
+          {/* <input name={firstNameFieldName} placeholder="Your first name" /> */}
           <div
             style={{ position: "absolute", left: "-5000px" }}
             aria-hidden="true"
@@ -66,11 +69,12 @@ export const Newsletter: FunctionComponent<NewsletterProps> = ({ data }) => {
             type="submit"
             name={submitButtonName}
             className="button button--primary"
+            onClick={"https://www.amandeepchahal.com/blogs"}
           >
-            Subscribe
+            Check it out!
           </button>
-        </form> */}
-      {/* <div className={styles.formFooter}>
+        </form>
+        {/* <div className={styles.formFooter}>
           By subscribing, you agree with {serviceName}’s{" "}
           <a target="_blank" href={tosURL}>
             Terms of Service
@@ -81,7 +85,7 @@ export const Newsletter: FunctionComponent<NewsletterProps> = ({ data }) => {
           </a>
           .
         </div> */}
-      {/* </div> */}
+      </div>
     </div>
   );
 };
