@@ -24,7 +24,7 @@ const config = {
 
   customFields: {
     newsletter: {
-      action: "https://www.amandeepchahal.com/blogs",
+      action: "/blogs.tsx",
       method: "post",
       emailFieldName: "EMAIL",
       firstNameFieldName: "FNAME",
