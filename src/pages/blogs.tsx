@@ -9,57 +9,57 @@ import GraphQLInGoDescription from "./assets/talks/_graphql-in-go.md";
 import UnityEngineDeveloper from "./assets/talks/unity_engine_dev.md";
 
 const talks: TalkMetadata[] = [
-  {
-    title: "BLOG",
-    description: <UnityEngineDeveloper />,
-    events: [
-      {
-        name: "[P1] Games",
-        location: "Remote",
-        date: new Date(2024, 7, 8),
-      },
-    ],
-    slidesURL: "https://tomboi23.itch.io/rockin-progress",
-  },
-  {
-    title: "Contract Software Developer",
-    description: <BuildingGQLAPIForK8sResDescription />,
-    events: [
-      {
-        name: "Global Citizens",
-        location: "Remote",
-        date: new Date(2023, 10, 11),
-      },
-    ],
-  },
-  {
-    title: "Web Developer",
-    description: <DevTeamCollaborationGitBestPracticesDescription />,
-    events: [
-      {
-        name: "Learn It Global Hackathon",
-        location: "Remote",
-        date: new Date(2024, 0, 1),
-      },
-    ],
-    recordingURL: "https://github.com/Myzmi/CurrencyGuessr",
-  },
-  {
-    title: "Global Engagement Team Intern",
-    description: <GraphQLInGoDescription />,
-    events: [
-      {
-        name: "UW-Madison International Student Services",
-        location: "Madison, Wisconsin",
-        date: new Date(2022, 8, 9),
-      },
-    ],
-  },
+  // {
+  //   title: "BLOG",
+  //   description: <UnityEngineDeveloper />,
+  //   events: [
+  //     {
+  //       name: "[P1] Games",
+  //       location: "Remote",
+  //       date: new Date(2024, 7, 8),
+  //     },
+  //   ],
+  //   slidesURL: "https://tomboi23.itch.io/rockin-progress",
+  // },
+  // {
+  //   title: "Contract Software Developer",
+  //   description: <BuildingGQLAPIForK8sResDescription />,
+  //   events: [
+  //     {
+  //       name: "Global Citizens",
+  //       location: "Remote",
+  //       date: new Date(2023, 10, 11),
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Web Developer",
+  //   description: <DevTeamCollaborationGitBestPracticesDescription />,
+  //   events: [
+  //     {
+  //       name: "Learn It Global Hackathon",
+  //       location: "Remote",
+  //       date: new Date(2024, 0, 1),
+  //     },
+  //   ],
+  //   recordingURL: "https://github.com/Myzmi/CurrencyGuessr",
+  // },
+  // {
+  //   title: "Global Engagement Team Intern",
+  //   description: <GraphQLInGoDescription />,
+  //   events: [
+  //     {
+  //       name: "UW-Madison International Student Services",
+  //       location: "Madison, Wisconsin",
+  //       date: new Date(2022, 8, 9),
+  //     },
+  //   ],
+  // },
 ];
 
 const title = "Research Blog";
 const description =
-  "Thoughts and opinions on research articles & publications in computer science.  **STILL A WORK IN PROGRESS";
+  "Thoughts and opinions on research articles & publications in computer science.  **THIS PAGE IS A CURRENT WORK IN PROGRESS!! COMING SOON.**";
 
 export default function Talks(): JSX.Element {
   return (
