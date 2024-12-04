@@ -6,6 +6,24 @@ import { Project, ProjectData } from "../components/projects/Project";
 const assetsDir = "./assets/projects";
 const projects: ProjectData[] = [
   {
+    title: "BadgerChat",
+    description:
+      "BadgerChat was developed using HTML, CSS, JavaScript, React Native, Node.js, Wit.AI, and Sketch. It features a versatile chat agent built on React that manages both text and voice inputs, capable of executing various commands like user authentication and message posting. The integration of Wit.AI enhances the system's ability to understand and interpret user intentions from both text and voice inputs. Furthermore, BadgerChat supports real-time interactions by fetching and posting chat messages efficiently, while a custom-built delegation system maintains meticulous control over user sessions and preferences.",
+    url: "https://github.com/aschahal/BadgerChat",
+    image: require(`${assetsDir}/badger_chat.webp`),
+    role: "HTML, CSS, JavaScript, React (Native), Node.js, Wit.AI, Sketch",
+  },
+
+  {
+    title: "SuperMarket AI",
+    description:
+      "AI SuperMarket uses technologies such as Wit.AI, Node.js, HTML, CSS, JavaScript, React, and Sketch. It features a chat agent tailored for an online shopping platform that retrieves item listings through an API from the server. User interactions are captured and analyzed by the Wit.AI API to discern the user's intentions. The AI-driven agent then assists users by guiding them on how to effectively utilize the chat services, enhancing user engagement through interactive dialogues.",
+    url: "https://github.com/aschahal/AI-SuperMarket",
+    image: require(`${assetsDir}/better_supermarket.jpg`),
+    role: "HTML, CSS, JavaScript, React, Wit.AI, Sketch",
+  },
+
+  {
     title: "MathDB",
     description:
       "MathDB was developed using gRPC, HDFS, Python, and Docker. It is designed as a database system that manages basic mathematical operations, capable of utilizing multiple threads and caching results to improve efficiency. It features an LRU cache mechanism equipped with locks to maintain data consistency. The MathDB system is operated through gRPC calls to facilitate network communications, and it incorporates a multithreaded client that calculates the hit rate of the operations performed.",
@@ -21,24 +39,6 @@ const projects: ProjectData[] = [
     url: "https://github.com/aschahal/Spark-Mortgage-Applications",
     image: require(`${assetsDir}/home.jpg`),
     role: "Spark SQL, MySQL, HDFS, Python, Google Cloud Platform, Docker",
-  },
-
-  {
-    title: "AI SuperMarket",
-    description:
-      "AI SuperMarket uses technologies such as Wit.AI, Node.js, HTML, CSS, JavaScript, React, and Sketch. It features a chat agent tailored for an online shopping platform that retrieves item listings through an API from the server. User interactions are captured and analyzed by the Wit.AI API to discern the user's intentions. The AI-driven agent then assists users by guiding them on how to effectively utilize the chat services, enhancing user engagement through interactive dialogues.",
-    url: "https://github.com/aschahal/AI-SuperMarket",
-    image: require(`${assetsDir}/better_supermarket.jpg`),
-    role: "HTML, CSS, JavaScript, React, Wit.AI, Sketch",
-  },
-
-  {
-    title: "BadgerChat",
-    description:
-      "BadgerChat was developed using HTML, CSS, JavaScript, React Native, Node.js, Wit.AI, and Sketch. It features a versatile chat agent built on React that manages both text and voice inputs, capable of executing various commands like user authentication and message posting. The integration of Wit.AI enhances the system's ability to understand and interpret user intentions from both text and voice inputs. Furthermore, BadgerChat supports real-time interactions by fetching and posting chat messages efficiently, while a custom-built delegation system maintains meticulous control over user sessions and preferences.",
-    url: "https://github.com/aschahal/BadgerChat",
-    image: require(`${assetsDir}/badger_chat.webp`),
-    role: "HTML, CSS, JavaScript, React (Native), Node.js, Wit.AI, Sketch",
   },
 
   {
