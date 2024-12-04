@@ -10,9 +10,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title:
     "An ambitious creator, passionate programmer, and insightful problem solver",
-  tagline:
-    "Software engineer interested in personal growth and tech trends. Cloud-native and open-source enthusiast.",
-  url: "https://kosiec.dev",
+  tagline: "",
+  url: "https://www.amandeepchahal.com/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",

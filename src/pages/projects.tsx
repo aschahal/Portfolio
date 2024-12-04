@@ -24,6 +24,15 @@ const projects: ProjectData[] = [
   },
 
   {
+    title: "Badger News",
+    description:
+      "Badger News, developed with HTML, CSS, JavaScript, React Native, Node.js, Expo, and Figma, optimizes content delivery by dynamically updating articles and user preferences based on interaction data. The application incorporates the Animated API to ensure smooth transitions and visual enhancements, improving the overall readability and user experience. Designed for versatility, it adapts flawlessly to various devices and screen orientations, leveraging React Native's robust styling features to maintain a consistent and engaging user interface across platforms.",
+    url: "https://github.com/aschahal/Badger-News",
+    image: require(`${assetsDir}/badger_news.webp`),
+    role: "HTML, CSS, JavaScript, React Native, Node.js, Expo, Figma",
+  },
+
+  {
     title: "MathDB",
     description:
       "MathDB was developed using gRPC, HDFS, Python, and Docker. It is designed as a database system that manages basic mathematical operations, capable of utilizing multiple threads and caching results to improve efficiency. It features an LRU cache mechanism equipped with locks to maintain data consistency. The MathDB system is operated through gRPC calls to facilitate network communications, and it incorporates a multithreaded client that calculates the hit rate of the operations performed.",
@@ -39,15 +48,6 @@ const projects: ProjectData[] = [
     url: "https://github.com/aschahal/Spark-Mortgage-Applications",
     image: require(`${assetsDir}/home.jpg`),
     role: "Spark SQL, MySQL, HDFS, Python, Google Cloud Platform, Docker",
-  },
-
-  {
-    title: "Badger News",
-    description:
-      "Badger News, developed with HTML, CSS, JavaScript, React Native, Node.js, Expo, and Figma, optimizes content delivery by dynamically updating articles and user preferences based on interaction data. The application incorporates the Animated API to ensure smooth transitions and visual enhancements, improving the overall readability and user experience. Designed for versatility, it adapts flawlessly to various devices and screen orientations, leveraging React Native's robust styling features to maintain a consistent and engaging user interface across platforms.",
-    url: "https://github.com/aschahal/Badger-News",
-    image: require(`${assetsDir}/badger_news.webp`),
-    role: "HTML, CSS, JavaScript, React Native, Node.js, Expo, Figma",
   },
 
   {

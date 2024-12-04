@@ -32,6 +32,26 @@ const socialLinks: SocialLinkData[] = [
       </svg>
     ),
   },
+  {
+    name: "Portfolio",
+    url: "https://www.amandeepchahal.com/projects",
+    svg: (
+      <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <title>Portfolio</title>
+        <path d="M3 4h7l2 2h9v17H3V4z" />
+      </svg>
+    ),
+  },
+  {
+    name: "Research Blog",
+    url: "https://www.amandeepchahal.com/blogs",
+    svg: (
+      <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <title>Portfolio</title>
+        <path d="M9 2h6v6l5 10v2H4v-2l5-10V2z" />
+      </svg>
+    ),
+  },
 ];
 
 export default function Home(): JSX.Element {
