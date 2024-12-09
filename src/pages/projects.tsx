@@ -10,16 +10,16 @@ const projects: ProjectData[] = [
     description:
       "BadgerChat was developed using HTML, CSS, JavaScript, React Native, Node.js, Wit.AI, and Sketch. It features a versatile chat agent built on React that manages both text and voice inputs, capable of executing various commands like user authentication and message posting. The integration of Wit.AI enhances the system's ability to understand and interpret user intentions from both text and voice inputs. Furthermore, BadgerChat supports real-time interactions by fetching and posting chat messages efficiently, while a custom-built delegation system maintains meticulous control over user sessions and preferences.",
     url: "https://github.com/aschahal/BadgerChat",
-    image: require(`${assetsDir}/badger_chat.webp`),
+    image: require(`${assetsDir}/BadgerChat_Logo.png`),
     role: "HTML, CSS, JavaScript, React (Native), Node.js, Wit.AI, Sketch",
   },
 
   {
     title: "SuperMarket AI",
     description:
-      "AI SuperMarket uses technologies such as Wit.AI, Node.js, HTML, CSS, JavaScript, React, and Sketch. It features a chat agent tailored for an online shopping platform that retrieves item listings through an API from the server. User interactions are captured and analyzed by the Wit.AI API to discern the user's intentions. The AI-driven agent then assists users by guiding them on how to effectively utilize the chat services, enhancing user engagement through interactive dialogues.",
+      "SuperMarket AI uses technologies such as Wit.AI, Node.js, HTML, CSS, JavaScript, React, and Sketch. It features a chat agent tailored for an online shopping platform that retrieves item listings through an API from the server. User interactions are captured and analyzed by the Wit.AI API to discern the user's intentions. The AI-driven agent then assists users by guiding them on how to effectively utilize the chat services, enhancing user engagement through interactive dialogues.",
     url: "https://github.com/aschahal/AI-SuperMarket",
-    image: require(`${assetsDir}/better_supermarket.jpg`),
+    image: require(`${assetsDir}/SuperMarket_AI_Logo.png`),
     role: "HTML, CSS, JavaScript, React, Wit.AI, Sketch",
   },
 
