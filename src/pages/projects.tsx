@@ -42,11 +42,11 @@ const projects: ProjectData[] = [
   },
 
   {
-    title: "Spark Loan Applications",
+    title: "Spark Home",
     description:
-      "Spark Loan Applications was developed  using Spark SQL, HDFS, Python, and Docker. It utilizes Apache Spark to process and analyze loan application data specifically from Wisconsin. By creating RDDs and DataFrames, and integrating Hive, it enables sophisticated data querying and manipulation. The system enhances query performance through data bucketing, optimizing complex data analysis and operations. Additionally, it employs machine learning models to predict loan approval probabilities, evaluating model effectiveness by splitting data into training and testing sets.",
+      "Spark Home was developed  using Spark SQL, HDFS, Python, and Docker. It utilizes Apache Spark to process and analyze loan application data specifically from Wisconsin. By creating RDDs and DataFrames, and integrating Hive, it enables sophisticated data querying and manipulation. The system enhances query performance through data bucketing, optimizing complex data analysis and operations. Additionally, it employs machine learning models to predict loan approval probabilities, evaluating model effectiveness by splitting data into training and testing sets.",
     url: "https://github.com/aschahal/Spark-Mortgage-Applications",
-    image: require(`${assetsDir}/home.jpg`),
+    image: require(`${assetsDir}/Spark_Home_Logo.png`),
     role: "Spark SQL, MySQL, HDFS, Python, Google Cloud Platform, Docker",
   },
 
