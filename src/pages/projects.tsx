@@ -55,7 +55,7 @@ const projects: ProjectData[] = [
     description:
       "Arrow is a protocol and library specifically designed for the efficient analysis of tabular data. It enables optimized data processing by standardizing how data is represented in memory, which facilitates rapid access and manipulation of data structures. Arrow is particularly useful in scenarios where performance and data interoperability are critical, as it allows for seamless data exchange among disparate systems and languages without the need for serialization or copying of data. This makes it an invaluable tool for developers working with large datasets and complex data operations.",
     url: "https://github.com/aschahal/Arrow",
-    image: require(`${assetsDir}/arrow.webp`),
+    image: require(`${assetsDir}/Project_Arrow_Logo.png`),
     role: "C/C++, Python, Makefile, Linux",
   },
 
