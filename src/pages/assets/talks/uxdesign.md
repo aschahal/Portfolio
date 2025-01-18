@@ -3,7 +3,7 @@
 - Used technical mindset to understand mordern development technologies
 
 - Researching, assisting, & learning various industry trends, creating prototypes, and testing designs for cohesive designs.
-  Conducted user research through surverys, and usability testing to infrom design descisions and enhance user-centered product development.
+  Conducted user research through surveys, and usability testing to inform design decisions and enhance user-centered product development.
 
 - Collaboration with developers, designers, and product teams to create user-centered solutions.
 
