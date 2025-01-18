@@ -7,8 +7,21 @@ import BuildingGQLAPIForK8sResDescription from "./assets/talks/_building-gql-api
 import DevTeamCollaborationGitBestPracticesDescription from "./assets/talks/_dev-team-collaboration-git-best-practices.md";
 import GraphQLInGoDescription from "./assets/talks/_graphql-in-go.md";
 import UnityEngineDeveloper from "./assets/talks/unity_engine_dev.md";
+import UxDesign from "./assets/talks/uxdesign.md";
 
 const talks: TalkMetadata[] = [
+  {
+    title: "UI/UX Design Intern",
+    description: <UxDesign />,
+    events: [
+      {
+        name: "The Net VR",
+        location: "Remote",
+        date: new Date(2024, 9, 10),
+      },
+    ],
+    slidesURL: "https://tomboi23.itch.io/rockin-progress",
+  },
   {
     title: "Unity Engine Developer",
     description: <UnityEngineDeveloper />,
