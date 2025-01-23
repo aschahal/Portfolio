@@ -11,7 +11,7 @@ import UxDesign from "./assets/talks/uxdesign.md";
 
 const talks: TalkMetadata[] = [
   {
-    title: "UI/UX Design Intern",
+    title: "User Expereience Designer Intern",
     description: <UxDesign />,
     events: [
       {
@@ -20,7 +20,6 @@ const talks: TalkMetadata[] = [
         date: new Date(2024, 9, 10),
       },
     ],
-    slidesURL: "https://tomboi23.itch.io/rockin-progress",
   },
   {
     title: "Unity Engine Developer",
