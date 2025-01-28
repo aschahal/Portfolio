@@ -105,7 +105,7 @@ const config = {
         },
         items: [
           // { to: "/blog", label: "Blog", position: "left" },
-          { to: "/projects", label: "Projects", position: "left" },
+          { to: "/projects", label: "Portfolio", position: "left" },
           { to: "/talks", label: "Experience", position: "left" },
           { to: "/blogs", label: "Blog", position: "left" },
         ],
@@ -134,7 +134,7 @@ const config = {
                 to: "/",
               },
               {
-                label: "Projects",
+                label: "Portfolio",
                 to: "/projects",
               },
               {
