@@ -8,8 +8,32 @@ import DevTeamCollaborationGitBestPracticesDescription from "./assets/talks/_dev
 import GraphQLInGoDescription from "./assets/talks/_graphql-in-go.md";
 import UnityEngineDeveloper from "./assets/talks/unity_engine_dev.md";
 import UxDesign from "./assets/talks/uxdesign.md";
+import Front from "./assets/talks/front.md";
+import IT from "./assets/talks/IT.md";
 
 const talks: TalkMetadata[] = [
+  {
+    title: "IT Technical Support Analyst I",
+    description: <IT />,
+    events: [
+      {
+        name: "Promega Corporation",
+        location: "On-site",
+        date: new Date(2025, 0, 10),
+      },
+    ],
+  },
+  {
+    title: "Front-End Software Developer",
+    description: <Front />,
+    events: [
+      {
+        name: "The Net VR",
+        location: "Remote",
+        date: new Date(2025, 0, 1),
+      },
+    ],
+  },
   {
     title: "User Expereience Designer Intern",
     description: <UxDesign />,
