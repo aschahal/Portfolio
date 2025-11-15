@@ -94,7 +94,7 @@ const talks: TalkMetadata[] = [
 ];
 
 const title = "Expereince";
-const description = "Featured events I participated/worked on.";
+const description = "Work experiences and past events.";
 
 export default function Talks(): JSX.Element {
   return (
