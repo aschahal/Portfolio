@@ -24,13 +24,13 @@ const talks: TalkMetadata[] = [
     ],
   },
   {
-    title: "Front-End Software Developer",
+    title: "Software Developer, Front-End",
     description: <Front />,
     events: [
       {
         name: "The Net VR",
         location: "Remote",
-        date: new Date(2025, 0, 1),
+        date: new Date(2024, 0, 1),
       },
     ],
   },
