@@ -1,24 +1,27 @@
 @import "../../css/mixins";
 
 .heroBanner {
-  padding: 10rem 0 11rem;
+  padding: 8rem 0 9rem;
   text-align: left;
   position: relative;
   overflow: hidden;
-  background: #000;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
   color: #fff;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
   padding-left: 2rem;
   padding-right: 2rem;
 
   @include small-size {
-    padding: 4rem 2rem;
+    padding: 4rem 1.5rem;
   }
 }
 
 .title {
-  font-size: 4rem;
-  text-shadow: 3px 0px 30px rgba(0, 0, 0, 0.2);
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.25rem;
 
   @include small-size {
     font-size: 2rem;
@@ -27,14 +30,19 @@
 
 .subtitle {
   margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.7;
+  max-width: 600px;
 
   @include small-size {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
 .highlighted {
-  background: linear-gradient(to left, #0054ad 0%, #b8fb3c 100%);
+  background: linear-gradient(135deg, #60a5fa 0%, #a3e635 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

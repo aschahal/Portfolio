@@ -1,25 +1,65 @@
 @import "../../css/mixins";
 
+.aboutSection {
+  padding: 4rem 0 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: var(--ifm-color-primary);
+    border-radius: 2px;
+  }
+}
+
 .avatarContainer {
   margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   @include small-size {
     margin: 2rem 0 0;
   }
 }
 
-$avatar-size: 310px;
+$avatar-size: 280px;
 .avatar {
   display: block;
   max-width: $avatar-size;
   max-height: $avatar-size;
+  border-radius: 999px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 
   img,
   & > div {
     border-radius: 999px;
     max-height: $avatar-size;
+    transition: transform 0.4s ease;
+
+    &:hover {
+      transform: scale(1.03);
+    }
   }
 
   @include small-size {
     margin: 0 auto;
   }
+}
+
+.description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--ifm-color-emphasis-800);
 }

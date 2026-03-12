@@ -3,6 +3,7 @@
 .newsWrapper {
   background-color: var(--ifm-color-emphasis-100);
   padding: 2rem 0;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
 }
 
 .form {
@@ -12,8 +13,14 @@
       calc(var(--ifm-button-padding-horizontal) / 2);
     font-size: calc(0.875rem * var(--ifm-button-size-multiplier));
     border: 1px solid var(--ifm-color-emphasis-300);
-    border-radius: var(--ifm-button-border-radius);
+    border-radius: 0.5rem;
     margin-right: 0.5rem;
+    transition: border-color 0.2s ease;
+
+    &:focus {
+      border-color: var(--ifm-color-primary);
+      outline: none;
+    }
 
     @include small-size {
       width: 100%;
@@ -25,11 +32,12 @@
 }
 
 .newsIcon {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   padding: 2px;
-  margin-right: 0.3rem;
+  margin-right: 0.4rem;
   float: left;
+  opacity: 0.8;
 
   [data-theme="dark"] & {
     fill: var(--ifm-font-color-base);
@@ -39,4 +47,5 @@
 .formFooter {
   margin-top: 1rem;
   font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
 }

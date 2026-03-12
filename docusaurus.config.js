@@ -150,11 +150,7 @@ const config = {
         ],
         copyright: `Copyright © 2023-${new Date().getFullYear()} Amandeep Chahal.`,
       },
-      algolia: {
-        appId: "5DLGGOZ8KA",
-        apiKey: "67ab853aa6285e51112a649d3cb51928",
-        indexName: "kosiec",
-      },
+      // Search bar removed
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

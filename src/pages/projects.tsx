@@ -127,7 +127,7 @@ const description = "Featured projects I was/am involved in.";
 export default function Projects(): JSX.Element {
   return (
     <Layout title={title} description={description}>
-      <main className="container container--fluid margin-vert--lg">
+      <main className="container margin-vert--lg">
         <h1>{title}</h1>
         <p>{description}</p>
 

@@ -1,7 +1,18 @@
+@import "../../css/mixins";
+
 .card {
-  border: 1px solid var(--ifm-color-emphasis-300);
-  box-shadow: none;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
   height: 100%;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    border-color: var(--ifm-color-emphasis-300);
+  }
 
   &Container {
     margin-bottom: calc(var(--ifm-spacing-horizontal) * 2);
@@ -9,12 +20,29 @@
 }
 
 .image {
-  background: #f7f7f7;
+  background: #f8fafc;
   position: relative;
+  overflow: hidden;
+
+  [data-theme="dark"] & {
+    background: #1a1a2e;
+  }
+
+  img {
+    transition: transform 0.4s ease;
+  }
+
+  .card:hover & img {
+    transform: scale(1.03);
+  }
 }
 
 .role {
   position: absolute;
-  left: 1rem;
-  bottom: 1rem;
+  left: 0.75rem;
+  bottom: 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  backdrop-filter: blur(4px);
+  max-width: calc(100% - 1.5rem);
 }
