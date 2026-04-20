@@ -15,8 +15,8 @@
     position: absolute;
     bottom: -6px;
     left: 0;
-    width: 40px;
-    height: 3px;
+    width: 48px;
+    height: 4px;
     background: var(--ifm-color-primary);
     border-radius: 2px;
   }
@@ -40,7 +40,8 @@ $avatar-size: 280px;
   max-height: $avatar-size;
   border-radius: 999px;
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 0 3px var(--ifm-color-primary),
+    0 0 0 6px var(--ifm-background-color), 0 24px 48px rgba(0, 0, 0, 0.16);
 
   img,
   & > div {
@@ -59,7 +60,7 @@ $avatar-size: 280px;
 }
 
 .description {
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-size: 1.075rem;
+  line-height: 1.85;
   color: var(--ifm-color-emphasis-800);
 }

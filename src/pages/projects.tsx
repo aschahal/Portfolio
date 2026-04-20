@@ -6,6 +6,33 @@ import { Project, ProjectData } from "../components/projects/Project";
 const assetsDir = "./assets/projects";
 const projects: ProjectData[] = [
   {
+    title: "TeeBox",
+    description:
+      "TeeBox360 is a 24/7 indoor golfing experience that allows you to book appointments anytime. Using an access control system, you can access your golfing space with only your phone. All booking and access control can be done through phone. Book your appointment anytime and play indoors!",
+    url: "https://treebox360-ui-upgrades.up.railway.app/",
+    image: require(`${assetsDir}/teebox2.png`),
+    role: "Spark SQL, MySQL, HDFS, Python, Google Cloud Platform, Docker",
+  },
+
+  {
+    title: "Email Validator",
+    description:
+      "Collaborated with the Net VR team to build a distributed email validation pipeline in Python that ingests bulk contact lists across multiple file formats and runs each address through a multi-stage validation process covering syntax checking, DNS/MX lookup, SMTP mailbox verification, disposable address detection, and spam trap/blacklist screening. Leveraged Celery and Redis for fault-tolerant asynchronous job processing and ThreadPoolExecutor for concurrent SMTP probing, with cleaned results automatically delivered back to customers as a CSV email attachment.",
+    url: "https://emailvalidation.thenetvr.com/",
+    image: require(`${assetsDir}/netvr2.png`),
+    role: "Django, Python, JavaScript, HTML, CSS",
+  },
+
+  {
+    title: "UGS Ecommerace",
+    description:
+      "In Net VR, built an in-game currency purchasing platform (LUX) integrating Unity Gaming Services (UGS) for player authentication, identity management, and virtual economy. LUX is our virtual currency for our native desktop applicaiotn, Net VR. Player can buy game credits & in-gme currency in seconds with instant delivery, secure transactions, and the best deals.",
+    url: "https://shop.thenetvr.com/",
+    image: require(`${assetsDir}/unity.jpg`),
+    role: "C/C++, Python, Makefile, Linux",
+  },
+
+  {
     title: "BadgerChat",
     description:
       "BadgerChat was developed using HTML, CSS, JavaScript, React Native, Node.js, Wit.AI, and Sketch. It features a versatile chat agent built on React that manages both text and voice inputs, capable of executing various commands like user authentication and message posting. The integration of Wit.AI enhances the system's ability to understand and interpret user intentions from both text and voice inputs. Furthermore, BadgerChat supports real-time interactions by fetching and posting chat messages efficiently, while a custom-built delegation system maintains meticulous control over user sessions and preferences.",
@@ -39,33 +66,6 @@ const projects: ProjectData[] = [
     url: "https://github.com/aschahal/MathDB",
     image: require(`${assetsDir}/MathDB_Logo.png`),
     role: "Python, HDFS, gRPC, Google Cloud Platform, Docker",
-  },
-
-  {
-    title: "Spark Home",
-    description:
-      "Spark Home was developed  using Spark SQL, HDFS, Python, and Docker. It utilizes Apache Spark to process and analyze loan application data specifically from Wisconsin. By creating RDDs and DataFrames, and integrating Hive, it enables sophisticated data querying and manipulation. The system enhances query performance through data bucketing, optimizing complex data analysis and operations. Additionally, it employs machine learning models to predict loan approval probabilities, evaluating model effectiveness by splitting data into training and testing sets.",
-    url: "https://github.com/aschahal/Spark-Mortgage-Applications",
-    image: require(`${assetsDir}/Spark_Home_Logo.png`),
-    role: "Spark SQL, MySQL, HDFS, Python, Google Cloud Platform, Docker",
-  },
-
-  {
-    title: "Project Arrow",
-    description:
-      "Arrow is a protocol and library specifically designed for the efficient analysis of tabular data. It enables optimized data processing by standardizing how data is represented in memory, which facilitates rapid access and manipulation of data structures. Arrow is particularly useful in scenarios where performance and data interoperability are critical, as it allows for seamless data exchange among disparate systems and languages without the need for serialization or copying of data. This makes it an invaluable tool for developers working with large datasets and complex data operations.",
-    url: "https://github.com/aschahal/Arrow",
-    image: require(`${assetsDir}/Project_Arrow_Logo.png`),
-    role: "C/C++, Python, Makefile, Linux",
-  },
-
-  {
-    title: "CurrencyGussr",
-    description:
-      "This program is a web-based application titled CurrencyGuessr, developed using the Django framework, a high-level Python web framework that encourages rapid development and clean, pragmatic design. The application is designed as a game where players guess currency conversion rates, specifically focusing on the conversion rate from USD to TRY (Turkish Lira). The game aims to draw attention to the challenges of predicting currency rates in the context of Turkey's economy, which has been experiencing significant inflation and currency devaluation.",
-    url: "https://3mirhan.pythonanywhere.com/",
-    image: require(`${assetsDir}/CurrencyGussr_Logo.png`),
-    role: "Django, Python, JavaScript, HTML, CSS",
   },
 
   // {
@@ -122,7 +122,7 @@ const projects: ProjectData[] = [
 ];
 
 const title = "Projects";
-const description = "Featured projects I was/am involved in.";
+const description = "Featured projects I am involved in.";
 
 export default function Projects(): JSX.Element {
   return (

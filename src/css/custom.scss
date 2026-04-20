@@ -29,7 +29,7 @@ h5 {
   --ifm-footer-background-color: transparent;
   --ifm-footer-padding-vertical: calc(var(--ifm-spacing-vertical) * 3);
 
-  --ifm-global-radius: 0.5rem;
+  --ifm-global-radius: 0.625rem;
   --ifm-line-height-base: 1.7;
 
   --ifm-navbar-height: 4rem;
@@ -38,19 +38,20 @@ h5 {
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: var(--pk-green);
-  --ifm-color-primary-dark: #84cc16;
-  --ifm-color-primary-darker: #65a30d;
-  --ifm-color-primary-darkest: #4d7c0f;
-  --ifm-color-primary-light: #bef264;
-  --ifm-color-primary-lighter: #d9f99d;
-  --ifm-color-primary-lightest: #ecfccb;
+  --pk-indigo: #818cf8;
+  --ifm-color-primary: #818cf8;
+  --ifm-color-primary-dark: #6366f1;
+  --ifm-color-primary-darker: #4f46e5;
+  --ifm-color-primary-darkest: #4338ca;
+  --ifm-color-primary-light: #a5b4fc;
+  --ifm-color-primary-lighter: #c7d2fe;
+  --ifm-color-primary-lightest: #e0e7ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 html[data-theme="dark"] {
-  --ifm-background-color: #0f0f0f;
-  --ifm-background-surface-color: #0f0f0f;
+  --ifm-background-color: #111111;
+  --ifm-background-surface-color: #111111;
 
   .navbar {
     border-bottom: 1px solid var(--ifm-color-emphasis-200);
@@ -60,7 +61,7 @@ html[data-theme="dark"] {
 /* Navbar */
 .navbar {
   font-weight: 500;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(12px);
   transition: background-color 0.3s ease;
 
   &__title {
@@ -129,12 +130,13 @@ html[data-theme="dark"] {
 
 /* Page title styling */
 main > .container > h1 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   margin-bottom: 0.25rem;
+  letter-spacing: -0.02em;
 }
 
 main > .container > p {
   color: var(--ifm-color-emphasis-700);
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   margin-bottom: 2rem;
 }

@@ -50,6 +50,26 @@
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #818cf8 0%, #60a5fa 100%);
+    border-color: transparent;
+
+    [data-theme="dark"] & {
+      background: linear-gradient(
+        135deg,
+        #09090f 0%,
+        #0f172a 50%,
+        #09090f 100%
+      );
+      border-color: transparent;
+
+      .btnIcon {
+        fill: #fff;
+      }
+
+      .btnText {
+        color: #fff;
+      }
+    }
   }
 
   &--active,
@@ -78,4 +98,8 @@
   color: var(--ifm-font-color-base);
   font-weight: 500;
   transition: color 0.2s ease;
+
+  [data-theme="dark"] & {
+    color: var(--ifm-button-color);
+  }
 }

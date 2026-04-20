@@ -13,17 +13,6 @@ import IT from "./assets/talks/IT.md";
 
 const talks: TalkMetadata[] = [
   {
-    title: "IT Technical Support Analyst I",
-    description: <IT />,
-    events: [
-      {
-        name: "Promega Corporation",
-        location: "On-site",
-        date: new Date(2025, 0, 10),
-      },
-    ],
-  },
-  {
     title: "Software Developer, Front-End",
     description: <Front />,
     events: [
@@ -31,6 +20,17 @@ const talks: TalkMetadata[] = [
         name: "The Net VR",
         location: "Remote",
         date: new Date(2024, 0, 1),
+      },
+    ],
+  },
+  {
+    title: "IT Service Desk Specialist",
+    description: <IT />,
+    events: [
+      {
+        name: "Promega Corporation",
+        location: "On-site",
+        date: new Date(2025, 0, 10),
       },
     ],
   },

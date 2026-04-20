@@ -5,11 +5,16 @@
   text-align: left;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
-  color: #fff;
+  background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 50%, #ede9fe 100%);
+  color: #1e1b4b;
   margin-bottom: 0;
   padding-left: 2rem;
   padding-right: 2rem;
+
+  [data-theme="dark"] & {
+    background: linear-gradient(135deg, #09090f 0%, #0f172a 50%, #09090f 100%);
+    color: #fff;
+  }
 
   @include small-size {
     padding: 4rem 1.5rem;
@@ -18,9 +23,9 @@
 
 .title {
   font-size: 3.5rem;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.15;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
   margin-bottom: 1.25rem;
 
   @include small-size {
@@ -32,9 +37,13 @@
   margin: 0;
   font-size: 1.2rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(30, 27, 75, 0.65);
   line-height: 1.7;
   max-width: 600px;
+
+  [data-theme="dark"] & {
+    color: rgba(255, 255, 255, 0.75);
+  }
 
   @include small-size {
     font-size: 1rem;
@@ -42,7 +51,7 @@
 }
 
 .highlighted {
-  background: linear-gradient(135deg, #60a5fa 0%, #a3e635 100%);
+  background: linear-gradient(135deg, #818cf8 0%, #60a5fa 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
