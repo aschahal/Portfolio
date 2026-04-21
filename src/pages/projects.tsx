@@ -20,7 +20,7 @@ const projects: ProjectData[] = [
       "Collaborated with the Net VR team to build a distributed email validation pipeline in Python that ingests bulk contact lists across multiple file formats and runs each address through a multi-stage validation process covering syntax checking, DNS/MX lookup, SMTP mailbox verification, disposable address detection, and spam trap/blacklist screening. Leveraged Celery and Redis for fault-tolerant asynchronous job processing and ThreadPoolExecutor for concurrent SMTP probing, with cleaned results automatically delivered back to customers as a CSV email attachment.",
     url: "https://emailvalidation.thenetvr.com/",
     image: require(`${assetsDir}/netvr2.png`),
-    role: "HTML, CSS, Tailwind, Python",
+    role: "HTML, CSS, Tailwind CSS, Django, Python (Celery, Flower), Fast API, Docker, Redis",
   },
 
   {
