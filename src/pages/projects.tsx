@@ -11,7 +11,7 @@ const projects: ProjectData[] = [
       "TeeBox360 is a 24/7 indoor golfing experience that allows you to book appointments anytime. Using an access control system, you can access your golfing space with only your phone. All booking and access control can be done through phone. Book your appointment anytime and play indoors!",
     url: "https://treebox360-ui-upgrades.up.railway.app/",
     image: require(`${assetsDir}/teebox2.png`),
-    role: "Spark SQL, MySQL, HDFS, Python, Google Cloud Platform, Docker",
+    role: "TypeScript, Vue, Tailwind, Nuxt UI, HTML, Prisma, Node.js",
   },
 
   {
@@ -20,7 +20,7 @@ const projects: ProjectData[] = [
       "Collaborated with the Net VR team to build a distributed email validation pipeline in Python that ingests bulk contact lists across multiple file formats and runs each address through a multi-stage validation process covering syntax checking, DNS/MX lookup, SMTP mailbox verification, disposable address detection, and spam trap/blacklist screening. Leveraged Celery and Redis for fault-tolerant asynchronous job processing and ThreadPoolExecutor for concurrent SMTP probing, with cleaned results automatically delivered back to customers as a CSV email attachment.",
     url: "https://emailvalidation.thenetvr.com/",
     image: require(`${assetsDir}/netvr2.png`),
-    role: "Django, Python, JavaScript, HTML, CSS",
+    role: "HTML, CSS, Tailwind, Python",
   },
 
   {
@@ -29,7 +29,7 @@ const projects: ProjectData[] = [
       "In Net VR, built an in-game currency purchasing platform (LUX) integrating Unity Gaming Services (UGS) for player authentication, identity management, and virtual economy. LUX is our virtual currency for our native desktop applicaiotn, Net VR. Player can buy game credits & in-gme currency in seconds with instant delivery, secure transactions, and the best deals.",
     url: "https://shop.thenetvr.com/",
     image: require(`${assetsDir}/unity.jpg`),
-    role: "C/C++, Python, Makefile, Linux",
+    role: "Vue, TypeScript, Python, HTML, Go, CSS, Dockerfile",
   },
 
   {
